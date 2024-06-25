@@ -1,0 +1,8 @@
+<nav>
+  <img src="assets/dummyLogo.png" alt="Logo" />
+  <ul>
+    @for (sidebarItem of sidebarItems; track sidebarItem.label) {
+    <li>{{ sidebarItem.label }}</li>
+    }
+  </ul>
+</nav>
